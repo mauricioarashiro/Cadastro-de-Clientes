@@ -5,7 +5,6 @@
 	$senha = "pass"; 
 	$bancodedados = "db"; 
 	
-	//$link = mysqli_connect ('bdhost0087.servidorwebfacil.com', 'brpermut_kenji', '92e2dd5bffUrso', 'brpermut_sistema');
 	
 	// Criando a conexão
 	$conn = new mysqli($servidor, $usuario, $senha, $bancodedados);
